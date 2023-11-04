@@ -1,0 +1,9 @@
+[submodule "thirdparty/JScript"]
+	path = thirdparty/JScript
+	url = https://github.com/RusJJ/JScript
+[submodule "thirdparty/JoltPhysics"]
+	path = thirdparty/JoltPhysics
+	url = https://github.com/jrouwe/JoltPhysics
+[submodule "thirdparty/sokol"]
+	path = thirdparty/sokol
+	url = https://github.com/floooh/sokol
