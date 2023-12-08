@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{fa97d964-18b6-4e30-a25a-a7e706c539d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Sokol">
+      <UniqueIdentifier>{400b708c-cf2d-4756-864a-308b4f2d28db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\os">
+      <UniqueIdentifier>{d8e56136-8f24-4748-ab41-5cde8d229dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ThirdParty">
+      <UniqueIdentifier>{60f065c3-bac7-40e8-a7af-a1a5ac86b285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\JScript">
+      <UniqueIdentifier>{30fbe626-bef0-4a5a-99a8-262ba2f62480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\thirdparty\sokol\sokol.cpp">
+      <Filter>Source Files\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\JScript\src\jscript.cpp">
+      <Filter>ThirdParty\JScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\thirdparty\sokol\sokol_app.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_args.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_audio.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_fetch.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_gfx.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_glue.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_log.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\sokol\sokol_time.h">
+      <Filter>ThirdParty\Sokol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\os\os.h">
+      <Filter>Headers\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\JScript\src\jscript.h">
+      <Filter>ThirdParty\JScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
